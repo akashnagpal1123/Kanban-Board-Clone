@@ -1,0 +1,21 @@
+.App {
+
+  height: 100vh;
+  background-image: url("./bg-123.jpg");
+  background-size: cover;
+  opacity: 0.99999;
+}
+
+.Header {
+  background: rgba(0, 0, 0, 0.522);
+
+  color: white;
+  padding: 5px 0;
+
+
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+

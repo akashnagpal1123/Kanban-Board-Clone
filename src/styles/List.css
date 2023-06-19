@@ -1,0 +1,60 @@
+/* .List {
+  background: #dfe3e6;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+} */
+.List{  
+  flex-shrink: 0;
+  width: 272px;
+  height: fit-content;
+  margin-right: 0;
+  margin: 30px;
+  padding: 10px 20px;
+  width: 300px;
+  background-color: #000000d3;
+  border: 1px solid transparent;
+}
+
+
+.List {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.List:hover {
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #000000;
+  scale: 1.009;
+}
+
+.List-Title {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  color:rgb(221, 218, 218);
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+
+.Toggle-Add-Card {
+  cursor: pointer;
+  padding: 10px;
+  color: #5cb3e6;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.Toggle-Add-Card:hover {
+  background-color: rgba(9, 45, 66, 0.13);
+  color: #a54aa4;
+  text-decoration: underline;
+}
+
+.Toggle-Add-Card ion-icon {
+  margin-right: 2px;
+}
